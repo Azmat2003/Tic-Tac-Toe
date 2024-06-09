@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#gameName {
+    background-color: brown;
+    height: 5rem;
+    display: flex;
+    align-items: center; /* cross-axis */
+    justify-content: center; /* main axis */
+}
+
+#heading {
+    font-size: 3rem;
+}
+
+.players {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 2rem;
+}
+
+h2 {
+    display: inline;
+}
+
+img {
+    width: 1em;
+}
+
+#mainBox {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    margin-top: 3rem;
+    /* border: 1rem solid black; */
+    display: inline-block;
+}
+
+#board button {
+    height: 8rem;
+    width: 8rem;
+}
+
+.addX {
+    background-image: url('./cross.png');
+    /* v.v.v imp */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.add0 {
+    background-image: url('./zero.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#winner {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* .winnerResult {
+
+} */
+
+#reset {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
