@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #6482AD;
 }
 
 #gameName {
-    background-color: brown;
+    background-color: #7FA1C3;
     height: 5rem;
     display: flex;
     align-items: center; /* cross-axis */
@@ -81,4 +81,13 @@ img {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+}
+
+#reset button {
+    width: 70px;
+    height: 30px;
+    border-color: black;
+    background-color: #80BCBD;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
